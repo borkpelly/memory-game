@@ -50,7 +50,7 @@ function checkAnswer(currentLevel) {
       setTimeout(function() {
         nestSequence();
         userClickedPattern = [];
-      }, 1000);
+      }, 1650);
     }
 
   } else {
