@@ -64,7 +64,7 @@ function checkAnswer(currentLevel) {
       userClickedPattern = [];
       gamePattern = [];
       level = 0;
-      $("#level-title").html("Click to Rumble");
+      $("#level-title").html("Click Here to Rumble");
     }, 3000);
   }
 }
