@@ -7,7 +7,9 @@ var level = 0;
 $(".btn").on("click", notify)
 $("#level-title").on("click", function() {
   if (level == 0) {
+    setTimeout(function(){
     nestSequence();
+    }, 1000)
   }
 })
 
