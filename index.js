@@ -57,7 +57,7 @@ function checkAnswer(currentLevel) {
     console.log("fail");
     var audio = new Audio("sounds/wrong.wav");
     audio.play();
-    $("#level-title").html("You Need to Put in the Hours!");
+    $("#level-title").html("You Need to Put in More Hours!");
     setTimeout(function() {
       userClickedPattern = [];
       gamePattern = [];
