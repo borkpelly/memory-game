@@ -5,7 +5,7 @@ var userClickedPattern = [];
 var level = 0;
 
 $(".btn").on("click", notify)
-$(document).on("keydown", function() {
+$("#level-title").on("click", function() {
   if (level == 0) {
     nestSequence();
   }
@@ -62,7 +62,7 @@ function checkAnswer(currentLevel) {
       userClickedPattern = [];
       gamePattern = [];
       level = 0;
-      $("#level-title").html("Press A Key to Rumble");
+      $("#level-title").html("Click to Rumble");
     }, 3000);
   }
 }
