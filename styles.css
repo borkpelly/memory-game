@@ -65,7 +65,7 @@ body {
   transition: 300ms ease-in-out;
 }
 .instructions:hover{
-  transform: translate(-50%, -310.875px);
+  transform: translate(-50%, -374.875px);
 }
 .instructions-header{
   color: #FEF2BF;
