@@ -63,6 +63,6 @@ function checkAnswer(currentLevel) {
       gamePattern = [];
       level = 0;
       $("#level-title").html("Press A Key to Rumble");
-    }, 2000);
+    }, 2500);
   }
 }
